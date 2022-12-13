@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+System dependencies:
 
-Things you may want to cover:
+* Ruby version - 3.1.1
 
-* Ruby version
+* Rails version - 7.0.4
 
-* System dependencies
+* Postgresql version - 12.10
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+# COMMANDS
 
-* How to run the test suite
+rails new hello_world --api --database=postgresql
 
-* Services (job queues, cache servers, search engines, etc.)
+rails db:create --trace
 
-* Deployment instructions
+rails db:migrate
 
-* ...
+rails generate controller Greetings hello
+rails g controller api/v1/Users
+
+rails generate model User username:string
