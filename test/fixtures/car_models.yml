@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  makeid: MyString
+  makename: MyString
+  modelid: MyString
+  modelname: MyString
+  saleyear: 1
+
+two:
+  makeid: MyString
+  makename: MyString
+  modelid: MyString
+  modelname: MyString
+  saleyear: 1
